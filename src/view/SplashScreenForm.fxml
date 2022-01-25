@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="359.0" prefWidth="501.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SplashScreenFormController">
+   <children>
+      <ImageView fitHeight="359.0" fitWidth="501.0" pickOnBounds="true">
+         <image>
+            <Image url="@assets/loading-2.gif" />
+         </image>
+      </ImageView>
+      <JFXProgressBar fx:id="pgb" layoutX="163.0" layoutY="311.0" progress="0.25" style="-fx-accent: #00ffff;" />
+   </children>
+</AnchorPane>
