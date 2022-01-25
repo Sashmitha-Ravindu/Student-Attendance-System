@@ -6,7 +6,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane fx:id="adminUserFormContext" prefHeight="554.0" prefWidth="588.0" style="-fx-background-color: #34495e;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminUserFormController">
    <children>
       <Label layoutX="27.0" layoutY="32.0" text="Admin Dashboard" textFill="#fffbfb">
@@ -15,26 +14,31 @@
          </font>
       </Label>
       <Separator layoutX="27.0" layoutY="48.0" prefHeight="9.0" prefWidth="514.0" />
-      <JFXButton fx:id="btnRecAttendance" buttonType="RAISED" layoutX="169.0" layoutY="133.0" prefHeight="33.0" prefWidth="250.0" style="-fx-background-color: #95a5a6;" text="Record Attendance" textFill="#322f2f">
+      <JFXButton fx:id="btnAdminRecAttendance" buttonType="RAISED" layoutX="169.0" layoutY="109.0" prefHeight="33.0" prefWidth="250.0" style="-fx-background-color: #95a5a6;" text="Record Attendance" textFill="#322f2f">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
       </JFXButton>
-      <JFXButton fx:id="btnBackupRestore" buttonType="RAISED" layoutX="169.0" layoutY="363.0" prefHeight="33.0" prefWidth="250.0" style="-fx-background-color: #95a5a6;" text="Backup/Restore" textFill="#322f2f">
+      <JFXButton fx:id="btnAdminBackupRestore" buttonType="RAISED" layoutX="169.0" layoutY="384.0" prefHeight="33.0" prefWidth="250.0" style="-fx-background-color: #95a5a6;" text="Backup/Restore" textFill="#322f2f">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
       </JFXButton>
-      <JFXButton fx:id="btnViewReports" buttonType="RAISED" layoutX="169.0" layoutY="213.0" prefHeight="33.0" prefWidth="250.0" style="-fx-background-color: #95a5a6;" text="View Reports" textFill="#322f2f">
+      <JFXButton fx:id="btnAdminViewReports" buttonType="RAISED" layoutX="169.0" layoutY="178.0" prefHeight="33.0" prefWidth="250.0" style="-fx-background-color: #95a5a6;" text="View Reports" textFill="#322f2f">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
       </JFXButton>
-      <JFXButton fx:id="btnManageUsers" buttonType="RAISED" layoutX="169.0" layoutY="291.0" prefHeight="33.0" prefWidth="250.0" style="-fx-background-color: #95a5a6;" text="Manage Users" textFill="#322f2f">
+      <JFXButton fx:id="btnAdminManageUsers" buttonType="RAISED" layoutX="169.0" layoutY="317.0" prefHeight="33.0" prefWidth="250.0" style="-fx-background-color: #95a5a6;" text="Manage Users" textFill="#322f2f">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
       </JFXButton>
       <Separator layoutX="37.0" layoutY="490.0" prefHeight="9.0" prefWidth="514.0" />
+      <JFXButton fx:id="btnAdminUserProfile" buttonType="RAISED" layoutX="169.0" layoutY="244.0" prefHeight="33.0" prefWidth="250.0" style="-fx-background-color: #95a5a6;" text="User Profile" textFill="#322f2f">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
    </children>
 </AnchorPane>

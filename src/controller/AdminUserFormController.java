@@ -6,8 +6,9 @@ import javafx.scene.layout.AnchorPane;
 public class AdminUserFormController {
 
     public AnchorPane adminUserFormContext;
-    public JFXButton btnRecAttendance;
-    public JFXButton btnBackupRestore;
-    public JFXButton btnViewReports;
-    public JFXButton btnManageUsers;
+    public JFXButton btnAdminRecAttendance;
+    public JFXButton btnAdminBackupRestore;
+    public JFXButton btnAdminViewReports;
+    public JFXButton btnAdminManageUsers;
+    public JFXButton btnAdminUserProfile;
 }
