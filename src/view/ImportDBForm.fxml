@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="310.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ImportDBFormController">
+   <children>
+      <Label layoutX="29.0" layoutY="72.0" text="Restore previous database backup: ">
+         <font>
+            <Font name="Ubuntu" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="44.0" text="Hey there! It seems like this is the first boot of Student Attedence System">
+         <font>
+            <Font name="Ubuntu" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
